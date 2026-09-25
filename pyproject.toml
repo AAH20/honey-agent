@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "honey-agent"
+version = "1.0.0"
+description = "Autonomous Decoy Vault & Indirect Prompt Injection Tripwire for Computer-Use AI Agents"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+honey-agent = "honey_agent.cli:main"
